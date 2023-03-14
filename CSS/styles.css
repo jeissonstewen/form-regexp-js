@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    color: aliceblue;
+}
+body{
+    height: 100vh;
+    background: rgb(142,151,228);
+    background: linear-gradient(61deg, rgba(142,151,228,1) 0%, rgba(46,95,153,1) 100%);
+}
+.container{
+    height: 60vh;
+    width: 40%;
+    border: solid 1px;
+    margin: 10vh auto;
+    border-radius: 15px;
+}
+.container__title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__info{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0 2%;
+    justify-content: center;
+}
+.info__name, .info__lastName, .info__date, .info__phone, .info__password{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 10%;
+}
+.info__email{
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    height: 10%;
+}
+.info__acept{
+    width: 80%;
+    height: 10%;
+}
+.info__buttons{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
+}
+.container__info>div>input{
+    padding: 2%;
+    background-color: rgba(151, 208, 242, 0.659);
+    border: none;
+    border-radius: 10px;
+}
+.info__buttons button{
+    padding: 2%;
+}
+
